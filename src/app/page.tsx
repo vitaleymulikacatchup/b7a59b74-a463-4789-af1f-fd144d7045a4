@@ -37,7 +37,7 @@ export default function Home() {
           <HeroBillboard
             title="Welcome to Your Dream Hotel"
             description="Experience luxury and comfort in the heart of the city."
-            imageSrc="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            imageSrc="asset://hero-img"
             buttons={[
               { text: 'Book Now', href: 'contact' },
               { text: 'Explore', href: 'about' }
@@ -53,7 +53,7 @@ export default function Home() {
               { title: "Elegance", description: "Sophisticated design and top-notch amenities." },
               { title: "Convenience", description: "Located in the heart of the city, close to major attractions." }
             ]}
-            imageSrc="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            imageSrc="asset://about-img"
             className="bg-blue-50 text-gray-800"
           />
         </div>
@@ -62,8 +62,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6">
           <FeatureCardThree
             features={[
-              { id: "01", title: "Luxurious Rooms", description: "Relax in our plush rooms with a stunning city view.", imageSrc: "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" },
-              { id: "02", title: "Exclusive Spa", description: "Rejuvenate at our world-class spa services.", imageSrc: "https://images.pexels.com/photos/3673978/pexels-photo-3673978.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" }
+              { id: "01", title: "Luxurious Rooms", description: "Relax in our plush rooms with a stunning city view.", imageSrc: "asset://feature-img1" },
+              { id: "02", title: "Exclusive Spa", description: "Rejuvenate at our world-class spa services.", imageSrc: "asset://feature-img2" }
             ]}
             className="bg-blue-50 text-gray-800"
           />
@@ -86,7 +86,7 @@ export default function Home() {
             tag="Stay with Us"
             title="Contact Us"
             description="Reach us any time for bookings or inquiries."
-            imageSrc="https://images.pexels.com/photos/3215531/pexels-photo-3215531.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            imageSrc="asset://contact-img"
             mediaPosition="left"
             showCard={true}
             className="bg-blue-50 text-gray-800"
